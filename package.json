@@ -1,0 +1,17 @@
+{
+  "name": "assignment14",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -- watch",
+    "dev": "node --watch dist/index.js"
+  },
+  "private": true,
+  "dependencies": {
+    "crypto": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6"
+  }
+}
